@@ -228,6 +228,8 @@ svg.lucide { width: 18px; height: 18px; stroke-width: 1.8; flex-shrink: 0; }
 .action.liked svg.lucide { fill: var(--like); }
 .action-spacer { flex: 1; }
 .post-actions .action:nth-last-child(-n+2) { min-width: 0; }
+.feed-status { padding: 32px 20px; text-align: center; color: var(--muted); }
+.feed-status.error { color: var(--like); }
 
 /* ---------- 9. Right rail ---------- */
 .rail { display: flex; flex-direction: column; gap: 16px; }

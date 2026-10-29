@@ -112,30 +112,8 @@
 
         <button class="new-posts" id="new-posts"><i data-lucide="arrow-up"></i>Show 12 new posts</button>
 
-        <!-- Posts get rendered in here by js/feed.js (step 2).
-             The one below is a static example so the card styling is visible now. -->
-        <div id="feed">
-          <article class="post">
-            <span class="avatar avatar-md" data-initials="MC"></span>
-            <div class="post-body">
-              <header class="post-head">
-                <strong>Maya Chen</strong>
-                <span class="muted">@mayachen · 18m</span>
-                <button class="icon-btn post-more" aria-label="More"><i data-lucide="more-horizontal"></i></button>
-              </header>
-              <p class="post-text">A slow morning by the water. Sometimes the best way to find a new perspective is to step away from the screen.</p>
-              <footer class="post-actions">
-                <button class="action"><i data-lucide="message-circle"></i><span>24</span></button>
-                <button class="action"><i data-lucide="repeat-2"></i><span>12</span></button>
-                <button class="action liked"><i data-lucide="heart"></i><span>148</span></button>
-                <button class="action"><i data-lucide="bar-chart-2"></i><span>9.2k</span></button>
-                <span class="action-spacer"></span>
-                <button class="action"><i data-lucide="bookmark"></i></button>
-                <button class="action"><i data-lucide="share"></i></button>
-              </footer>
-            </div>
-          </article>
-        </div>
+        <!-- Posts are rendered in here by js/feed.js -->
+        <div id="feed"></div>
       </div>
     </main>
 
@@ -186,5 +164,7 @@
 
   <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/feed.js"></script>
 </body>
 </html>
